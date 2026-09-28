@@ -23,7 +23,7 @@ setting_icon.addEventListener('click',function () {
   a.style.display = "inline";
   backBtn.style.display = "inline";
   dark_theme.style.display = "inline";
-  light_theme.style.display = "no ne";
+  light_theme.style.display = "none";
   setting_manu_hr.style.display = "block";
 })
 // backBtn event

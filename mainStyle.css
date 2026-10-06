@@ -1,0 +1,69 @@
+/* contain style */
+.contain {
+  /* reletive position var */
+  /* text alighn center var */
+  /* capitaliz text */
+  /* page style */
+}
+.contain .page {
+  /* head style */
+}
+.contain .page .head {
+  /* header style */
+}
+.contain .page .head header {
+  /* uppercase text var */
+  /* pointer cursor var */
+  /* lite yellow color*/
+  /* none value var */
+  /* mashmods name style */
+}
+.contain .page .head header h1 {
+  text-transform: uppercase;
+  position: relative;
+  left: 10px;
+  bottom: 10px;
+}
+.contain .page .head header {
+  /* sigh in button div style */
+}
+.contain .page .head header .sign_in {
+  /* sign in button style */
+}
+.contain .page .head header .sign_in button {
+  width: 80px;
+  height: 40px;
+  border: none;
+  position: relative;
+  left: 75%;
+  bottom: 65px;
+  cursor: pointer;
+}
+.contain .page {
+  /* main hr style */
+}
+.contain .page .mainHr {
+  /* hr style */
+}
+.contain .page .mainHr hr {
+  position: relative;
+  bottom: 60px;
+}
+.contain .page {
+  /* bich ka contain style */
+}
+.contain .page .bich .emtySmg p {
+  text-align: center;
+  font-size: 18px;
+  position: relative;
+  bottom: 50px;
+  text-transform: capitalize;
+}
+.contain .page {
+  /* footer div style */
+}
+.contain .page .footer {
+  /* footer style */
+}
+
+/*# sourceMappingURL=mainStyle.css.map */

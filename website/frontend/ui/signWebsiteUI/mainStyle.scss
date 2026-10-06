@@ -1,39 +1,72 @@
 /* contain style */
-
 .contain {
-  /* full page style */
+  /* reletive position var */
+  $relPos: relative;
+  /* text alighn center var */
+  $centerAln: center;
+  /* capitaliz text */
+  $capTxt: capitalize;
+  /* page style */
   .page {
-    /* header */
-    header {
-      /* relative position var*/
-      $relPos: relative;
-      /* uppercase text var*/
-      $txt-upperCs: uppercase;
-      /* pointer cursor var*/
-      $pinterCorsor: pointer;
-      /* lite yellow var */
-      $lteYelo: yellow;
-      /*none value var */
-      $nonValue: none;
-      /* h1 style */
-      h1 {
-        text-transform: $txt-upperCs;
-        position: $relPos;
-        left: 10px;
-      }
-      /* sign_in div style */
-      .sign_in {
-        button {
-          width: 80px;
-          height: 40px;
+    /* head style */
+    .head {
+      /* header style */
+      header {
+        /* uppercase text var */
+        $txt-upperCs: uppercase;
+        /* pointer cursor var */
+        $pointerCorsor: pointer;
+        /* lite yellow color*/
+        $lteYelo: yellow;
+        /* none value var */
+        $noneValue: none;
+        /* mashmods name style */
+        h1 {
+          text-transform: $txt-upperCs;
           position: $relPos;
-          left: 77%;
-          bottom: 40px;
-          cursor: $pinterCorsor;
-          font-size: 15px;
-          background-color: $lteYelo;
-          border: $nonValue;
+          left: 10px;
+          bottom: 10px;
         }
+        /* sigh in button div style */
+        .sign_in {
+          /* sign in button style */
+          button {
+            width: 80px;
+            height: 40px;
+            border: $noneValue;
+            position: $relPos;
+            left: 75%;
+            bottom: 65px;
+            cursor: $pointerCorsor;
+          }
+        }
+      }
+    }
+    /* main hr style */
+    .mainHr {
+      /* hr style */
+      hr {
+        position: $relPos;
+        bottom: 60px;
+      }
+    }
+    /* bich ka contain style */
+    .bich {
+      .emtySmg {
+        p {
+          text-align: $centerAln;
+          font-size: 18px;
+          position: $relPos;
+          bottom: 50px;
+          text-transform: $capTxt;
+        }
+      }
+    }
+    /* footer div style */
+    .footer {
+      /* footer style */
+      footer {
+        
       }
     }
   }

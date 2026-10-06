@@ -1,36 +1,69 @@
 /* contain style */
 .contain {
-  /* full page style */
+  /* reletive position var */
+  /* text alighn center var */
+  /* capitaliz text */
+  /* page style */
 }
 .contain .page {
-  /* header */
+  /* head style */
 }
-.contain .page header {
-  /* relative position var*/
-  /* uppercase text var*/
-  /* pointer cursor var*/
-  /* lite yellow var */
-  /*none value var */
-  /* h1 style */
+.contain .page .head {
+  /* header style */
 }
-.contain .page header h1 {
+.contain .page .head header {
+  /* uppercase text var */
+  /* pointer cursor var */
+  /* lite yellow color*/
+  /* none value var */
+  /* mashmods name style */
+}
+.contain .page .head header h1 {
   text-transform: uppercase;
   position: relative;
   left: 10px;
+  bottom: 10px;
 }
-.contain .page header {
-  /* sign_in div style */
+.contain .page .head header {
+  /* sigh in button div style */
 }
-.contain .page header .sign_in button {
+.contain .page .head header .sign_in {
+  /* sign in button style */
+}
+.contain .page .head header .sign_in button {
   width: 80px;
   height: 40px;
-  position: relative;
-  left: 77%;
-  bottom: 40px;
-  cursor: pointer;
-  font-size: 15px;
-  background-color: yellow;
   border: none;
+  position: relative;
+  left: 75%;
+  bottom: 65px;
+  cursor: pointer;
+}
+.contain .page {
+  /* main hr style */
+}
+.contain .page .mainHr {
+  /* hr style */
+}
+.contain .page .mainHr hr {
+  position: relative;
+  bottom: 60px;
+}
+.contain .page {
+  /* bich ka contain style */
+}
+.contain .page .bich .emtySmg p {
+  text-align: center;
+  font-size: 18px;
+  position: relative;
+  bottom: 50px;
+  text-transform: capitalize;
+}
+.contain .page {
+  /* footer div style */
+}
+.contain .page .footer {
+  /* footer style */
 }
 
 /*# sourceMappingURL=mainStyle.css.map */

@@ -1,3 +1,8 @@
+/* sens serif forn */
+$sns-srif: sans-serif;
+body {
+  font-family: $sns-srif;
+}
 /* contain style */
 .contain {
   /* reletive position var */
@@ -71,3 +76,4 @@
     }
   }
 }
+

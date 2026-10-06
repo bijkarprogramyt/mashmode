@@ -1,0 +1,40 @@
+/* contain style */
+
+.contain {
+  /* full page style */
+  .page {
+    /* header */
+    header {
+      /* relative position var*/
+      $relPos: relative;
+      /* uppercase text var*/
+      $txt-upperCs: uppercase;
+      /* pointer cursor var*/
+      $pinterCorsor: pointer;
+      /* lite yellow var */
+      $lteYelo: yellow;
+      /*none value var */
+      $nonValue: none;
+      /* h1 style */
+      h1 {
+        text-transform: $txt-upperCs;
+        position: $relPos;
+        left: 10px;
+      }
+      /* sign_in div style */
+      .sign_in {
+        button {
+          width: 80px;
+          height: 40px;
+          position: $relPos;
+          left: 77%;
+          bottom: 40px;
+          cursor: $pinterCorsor;
+          font-size: 15px;
+          background-color: $lteYelo;
+          border: $nonValue;
+        }
+      }
+    }
+  }
+}

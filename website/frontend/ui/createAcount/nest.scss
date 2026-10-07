@@ -1,0 +1,36 @@
+
+// contain style 
+.contain {
+  // page style
+  .page {
+    // sign up style 
+    .sign {
+      // border fun font-variant
+      $onePx: 1px;
+      $sold: solid;
+      $bl-col: black;
+      // reletive position var
+      $relPos: relative;
+      // center align 
+      $cenAl: center;
+      // capitaliz text
+      $capTxt: capitalize;
+      //sign-up_box style
+      .sign-up_box {
+        width: 300px;
+        height: 400px;
+        border: $onePx $sold $bl-col;
+        margin: auto;
+        position: $relPos;
+        top: 30px;
+        // sign-up_box ke under agar h1 tag hota hei tab
+        h1 {
+          text-align: $cenAl;
+          text-transform: $capTxt;
+          position: $relPos;
+          top: 5px;
+        }
+      }
+    }
+  }
+}

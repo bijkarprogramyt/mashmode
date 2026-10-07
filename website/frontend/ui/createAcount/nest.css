@@ -1,0 +1,16 @@
+.contain .page .sign .sign-up_box {
+  width: 300px;
+  height: 400px;
+  border: 1px solid black;
+  margin: auto;
+  position: relative;
+  top: 30px;
+}
+.contain .page .sign .sign-up_box h1 {
+  text-align: center;
+  text-transform: capitalize;
+  position: relative;
+  top: 5px;
+}
+
+/*# sourceMappingURL=nest.css.map */

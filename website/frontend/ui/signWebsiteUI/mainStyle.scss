@@ -32,6 +32,7 @@ body {
           left: 10px;
           bottom: 10px;
         }
+        // 
         /* sigh in button div style */
         .sign_in {
           /* sign in button style */
@@ -45,7 +46,6 @@ body {
             cursor: $pointerCorsor;
             font-size: 18px;
             text-transform: $capTxt;
-           
           }
         }
       }
@@ -79,4 +79,6 @@ body {
     }
   }
 }
+
+
 
